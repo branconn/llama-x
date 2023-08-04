@@ -1,3 +1,9 @@
+# Llama-x
+
+```bash
+uvicorn app.main:app --proxy-headers --host 0.0.0.0 --port 8000
+```
+
 # Llama 2
 
 We are unlocking the power of large language models. Our latest version of Llama is now accessible to individuals, creators, researchers and businesses of all sizes so that they can experiment, innovate and scale their ideas responsibly. 

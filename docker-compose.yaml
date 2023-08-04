@@ -1,0 +1,11 @@
+version: '0.1'
+
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: ./docker/api/Dockerfile
+    container_name: llama-x-api
+    ports:
+      - '8000:8000'
